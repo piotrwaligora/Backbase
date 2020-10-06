@@ -1,0 +1,25 @@
+Test Case ID	Test Scenario	            Test Steps	                                            Test Data	                Expected Results	Actual Results	    Pass/Fail
+1.              Verify new post is added	1. Open https://qa-task.backbasecloud.com/		                                    Post is added	    As expected	        Pass
+                                            2. Enter Login and password	                            user: pwtest, pass: pw123
+                                            3. Click New Post
+                                            4. Fill in all fields	                                Any string values
+                                            5. Click publish article
+                                            6. Verify new post is added
+                                            7. Logout
+
+2.	        Verify post is updated	        1. Open https://qa-task.backbasecloud.com/		Post about section is updated	As expected	Pass
+		2. Enter Login and password	user: pwtest, pass: pw123
+		3. Navigate to https://qa-task.backbasecloud.com/#/profile/pwtest
+		4. Select top post
+		5. Click on edit article
+		6. Change about section	Any string values
+		7. Click on publish article
+		8. Open profile
+		9. Verify article is updated
+		10. Logout
+
+		We can create many testcases in this case and cover edge cases eg:
+		update all fields → expected all fields are updated
+		update fields, click cancel → no update
+		update fields with special marks, eg :!@#@$@, save, verify
+		update fields with 5000 chars → I dont have acceptance criteria... how long string can I put there?
