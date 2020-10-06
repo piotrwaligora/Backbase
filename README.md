@@ -42,4 +42,5 @@ There is lots of things to do to show you that it can be complete framework:
 6. Add before / after if necessary
 7. Add log4j
 8. Use hamcrest/assertj instead of junit assertions
-9. ?
+9. add git ignore file
+10. ?
