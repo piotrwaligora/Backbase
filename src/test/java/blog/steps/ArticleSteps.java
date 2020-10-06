@@ -6,6 +6,8 @@ import blog.navigation.Navigation;
 import blog.pages.Article;
 import blog.pages.Login;
 import blog.pages.NewPost;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +17,16 @@ import org.junit.Assert;
 
 public class ArticleSteps {
     private ArticleData javaBook = new ArticleData("Java 8", "its about java", "java is sometimes hard to understand", "java");
+
+    @Before
+    public void initiation() {
+        //todo if necessary
+    }
+
+    @After
+    public void after() {
+        //todo if necessary
+    }
 
     @Steps
     private Navigation navigation;

@@ -3,15 +3,25 @@ package blog.steps;
 import blog.components.NavigationBar;
 import blog.navigation.Navigation;
 import blog.pages.Login;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 public class LoginSteps {
+
+    @Before
+    public void initiation() {
+        //todo if necessary
+    }
+
+    @After
+    public void after() {
+        //todo if necessary
+    }
 
     @Steps
     private Navigation navigation;

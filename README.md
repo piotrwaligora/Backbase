@@ -4,6 +4,8 @@ I used java with serenity bdd, because it creates automatically reports, and sup
 I wanted to use rest assured to automate backend part, but building frontend framework took me more time than I expected.
 Please review my code and solutions and if you are still interested in my candidature and rest part to be written is necessary let me know.</b>
 
+Here you can see how it works on movie:
+https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/features/report/report.mov
 
 1. Create a series of manual test cases that cover one functionality that you choose
 paths:
@@ -28,3 +30,15 @@ I didnt make pen tests, because dont want spent days on it.
 Please git clone, checkout master branch and run tests:
 <b>mvn clean verify</b>
 
+
+
+BTW:
+There is lots of things to do to show you that it can be complete framework:
+1. backend -> add rest assured tests -> tests on api level
+2. create property files and keep there data
+3. integrate with CI -> mvn clean test -DtestName/featureName
+4. I need to fix packages mess
+5. More cases with backend
+6. Add before / after if necessary
+7. Add log4j
+8. ?
