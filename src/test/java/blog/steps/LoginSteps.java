@@ -44,6 +44,6 @@ public class LoginSteps {
 
     @Then("user {string} is logged in")
     public void isLoggedIn(String user) {
-        Assert.assertTrue(navigationBar.isUserLoggedIn(user));
+        Assert.assertTrue(user + " is not shown on navigation bar after login", navigationBar.isUserLoggedIn(user));
     }
 }

@@ -61,7 +61,7 @@ public class ArticleSteps {
 
     @Then("article is added and contains text {string}")
     public void articleIsAddedAndContainsText(String articleText) {
-        Assert.assertTrue(article.getArticleContext().contains(articleText));
+        Assert.assertTrue("article is not added", article.getArticleContext().contains(articleText));
 
     }
 }
