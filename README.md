@@ -20,13 +20,13 @@ paths to screen from report:
 https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/serenityReport.png
 additionalFiles/serenityReport.png
 4. Provide an overall evaluation report for the application (approach, issues, risks, recommendation, why you chose the test cases to automate, etc.) ->
-Application is in good shape, however I found some defects which needs to be fixed:
-a) If you change profile password, there is no input field to reenter the password. So if user make TYPO than he will lose your profile.
-b) When I add article I dont have to put article title, I can add article with all fields empty, etc. Validation is needed there.
-c) I can add empty comment
-d) Password can be without any special signs.
-e) I cannot add more than 1 tag, no possibility to splt tags.
-f) Follow user doesnt work. If I add article and i logout and login as user that follow me, he doesnt get any info about new article.
+Application is in good shape, however I found some defects which needs to be fixed:<br />
+a) If you change profile password, there is no input field to reenter the password. So if user make TYPO than he will lose your profile.<br />
+b) When I add article I dont have to put article title, I can add article with all fields empty, etc. Validation is needed there.<br />
+c) I can add empty comment<br />
+d) Password can be without any special signs.<br />
+e) I cannot add more than 1 tag, no possibility to splt tags.<br />
+f) Follow user doesnt work. If I add article and i logout and login as user that follow me, he doesnt get any info about new article.<br />
 
 I dont see any possibility of injections, application is in js/angular, I tried to break security but without success. I tried to put special signs, and inject js scripts, without success.
 I didnt check max load, because I havent used jmeter for long time.
