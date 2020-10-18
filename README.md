@@ -8,18 +8,16 @@ Please switch to branch master!!!
 1. Create a series of manual test cases that cover one functionality that you choose ->
 paths:
 https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/testcases.png
-testcases/testcases.txt
+testcases/testcases.png
 2. Automate ( at least two ) of the previously created test cases ->
 path:
 features/article/article.feature
-  automated: Backend: Verify article is added
-  Frontend: Verify article is added
-  Frontend: Verify article is added with empty data
+  automated: Backend: Verify article is added. Frontend: Verify article is added. Frontend: Verify article is added with empty data
 
 3. Provide a test report for executed test cases ->
 please run mvn clean verify -> it will generate report automatically, please open: target/site/serenity/index.html
 paths to screen from report:
-https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/features/report/reportHomePage.png
+https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/serenityReport.png
 additionalFiles/serenityReport.png
 4. Provide an overall evaluation report for the application (approach, issues, risks, recommendation, why you chose the test cases to automate, etc.) ->
 Application is in good shape, however I found some defects which needs to be fixed:
