@@ -12,7 +12,7 @@ testcases/testcases.png
 2. Automate ( at least two ) of the previously created test cases ->
 path:
 features/article/article.feature
-  automated: Backend: Verify article is added. Frontend: Verify article is added. Frontend: Verify article is added with empty data
+  automated: <br />Backend: Verify article is added. <br />Frontend: Verify article is added. <br />Frontend: Verify article is added with empty data
 
 3. Provide a test report for executed test cases ->
 please run mvn clean verify -> it will generate report automatically, please open: target/site/serenity/index.html
