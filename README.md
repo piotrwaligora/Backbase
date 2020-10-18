@@ -7,18 +7,18 @@ https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additio
 Please switch to branch master!!!
 1. Create a series of manual test cases that cover one functionality that you choose ->
 paths:
-https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/testcases.png
+https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/testcases.png <br />
 testcases/testcases.png
 2. Automate ( at least two ) of the previously created test cases ->
 path:
 features/article/article.feature
   automated: <br />Backend: Verify article is added. <br />Frontend: Verify article is added. <br />Frontend: Verify article is added with empty data
 
-3. Provide a test report for executed test cases ->
-please run mvn clean verify -> it will generate report automatically, please open: target/site/serenity/index.html
-paths to screen from report:
-https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/serenityReport.png
-additionalFiles/serenityReport.png
+3. Provide a test report for executed test cases -><br />
+please run mvn clean verify -> <br />it will generate report automatically, <br />please open: target/site/serenity/index.html<br />
+paths to screen from report:<br />
+https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/serenityReport.png<br />
+additionalFiles/serenityReport.png<br />
 4. Provide an overall evaluation report for the application (approach, issues, risks, recommendation, why you chose the test cases to automate, etc.) ->
 Application is in good shape, however I found some defects which needs to be fixed:<br />
 a) If you change profile password, there is no input field to reenter the password. So if user make TYPO than he will lose your profile.<br />
