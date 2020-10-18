@@ -143,7 +143,7 @@ public class Articles {
         restHelper.Login().header("jwtauthorization", "Token " + token)
                 .body(new BodyBuilder().Article(title + currentTime, description + currentTime, body + currentTime))
                 .when()
-                .post(ARTICLES_ENDPOINT).then().statusCode(HttpStatus.SC_BAD_REQUEST);
+                .post(ARTICLES_ENDPOINT).then().statusCode(HttpStatus.SC_OK);
     }
 
     @Then("article is added")
