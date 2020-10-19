@@ -7,7 +7,8 @@ https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additio
 Please switch to branch master!!!
 1. Create a series of manual test cases that cover one functionality that you choose ->
 .ods is open office extension<br />
-testcases/testcases.ods
+additionalFiles/TestCases.ods
+https://github.com/piotrwaligora/Backbase/blob/master/src/test/resources/additionalFiles/testcases.ods
 2. Automate ( at least two ) of the previously created test cases ->
 path:
 features/article/article.feature
