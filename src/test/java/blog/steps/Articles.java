@@ -1,7 +1,8 @@
 package blog.steps;
 
-import blog.helpers.Rest;
 import blog.api.BodyBuilder;
+import blog.helpers.Log;
+import blog.helpers.Rest;
 import blog.web.components.NavigationBar;
 import blog.web.dataset.ArticleData;
 import blog.web.navigation.Navigation;
@@ -27,7 +28,6 @@ import java.util.stream.IntStream;
 
 import static blog.api.Constants.ARTICLES_ENDPOINT;
 import static blog.api.Constants.LOGIN_ENDPOINT;
-import blog.helpers.Log;
 
 public class Articles {
     private ArticleData javaBook = new ArticleData("Java 8", "its about java", "java is sometimes hard to understand", "java");
